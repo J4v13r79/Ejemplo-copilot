@@ -28,7 +28,7 @@ doble'''
 #Calcular Salario(horas, pago)
 #Entrada: horas, pago
 #Salida: salario
-#Responsabilidad calcular, no imprimi
+#Responsabilidad calcular, no imprimir
 
 #mostrarSalario(salario)
 #Entrada: salario
