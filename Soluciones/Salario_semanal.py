@@ -4,7 +4,7 @@ PLANTEAMIENTO DEL PROBLEMA:
 Calcula el salario semanal de 
 un trabajador. Las horas 
 mayores a 40 se pagan al 
-doble'''
+triple'''
 
 # PROBLEMA: calcular salario semanal
 # ENTRADAS: horas_trabajadas, pago_por_hora
@@ -17,7 +17,7 @@ doble'''
 # 4. Si no:
 #       extra = horas - 40
 #       salario = (40 * pago) + (extra * pago * 2)
-# 5. Mostrar salario
+# 5. Mostrar salario con 2 decimales
 
 #Contrato de funciones 
 #Leer Datos()
@@ -52,3 +52,20 @@ doble'''
 # - no usar bibliotecas externas
 # - no usar variables globales
 # - no realizar llamadas a funciones de este archivo
+
+def leer_datos():
+    horas = float(input("Ingrese las horas trabajadas: "))
+    pago = float(input("Ingrese el pago por hora: "))
+    return horas, pago
+
+def calcular_salario(horas, pago):
+    if horas <= 40:
+        salario = horas * pago
+    else:
+        extra = horas - 40
+        salario = (40 * pago) + (extra * pago * 3)
+    return salario
+
+def mostrar_salario(salario):
+    print(f"El salario semanal es: {salario:.2f}")
+     
