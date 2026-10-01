@@ -1,0 +1,18 @@
+(.venv) PS C:\Users\197106-9\Documents\Ejemplo-copilot> python .\main.py
+menu de opciones
+1. Calcular salario
+2. Calcular x
+3. Calcular n!
+4. Salir
+Seleccione una opción: 2
+Ingrese el valor de a: 2
+Ingrese el valor de b: 20
+Ingrese el valor de c: 5
+El valor de x es: 0.80
+menu de opciones
+1. Calcular salario
+2. Calcular x
+3. Calcular n!
+4. Salir
+Seleccione una opción: 4
+(.venv) PS C:\Users\197106-9\Documents\Ejemplo-copilot> 
